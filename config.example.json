@@ -1,0 +1,23 @@
+{
+  "email": {
+    "host": "imap.example.com",
+    "username": "user@example.com",
+    "password": "app-specific-password",
+    "port": 993,
+    "mailbox": "INBOX",
+    "use_ssl": true,
+    "timeout": 30
+  },
+  "calendar": {
+    "source": "examples/sample.ics",
+    "verify_ssl": true,
+    "local_tz": "America/New_York"
+  },
+  "summary": {
+    "window": "P7D",
+    "top_senders": 5,
+    "top_events": 10,
+    "top_messages": 5,
+    "snippet_words": 20
+  }
+}
